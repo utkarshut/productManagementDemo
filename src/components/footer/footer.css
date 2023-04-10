@@ -1,0 +1,70 @@
+.footerArea {
+  background-color: #f6f6f8;
+  position: relative;
+  padding: 5em 0em;
+}
+.footerArea ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+.copyright p,
+.copyright a {
+  color: #313131;
+}
+.copyright a {
+  text-decoration: none;
+}
+.orgName {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+}
+.footerWidget h3 {
+  color: #313131;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0 0 16px;
+}
+.footerList a {
+  color: #5d5d5d;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+}
+a {
+  transition: all 0.3s ease 0s;
+}
+a:hover {
+  color: #a749ff;
+}
+.subscribeStyle {
+  color: #7a7a7a;
+  margin: 0 0 20px;
+}
+.subscribeForm input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #ebebeb;
+  color: #333;
+  font-size: 13px;
+  padding: 2px 10px 2px 0;
+  width: 100%;
+}
+.subscribeForm input:focus-visible {
+  border: none;
+  outline: none;
+}
+.subscribeForm button {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #9b9b9c;
+  color: #313131;
+  font-size: 14px;
+  height: auto;
+  line-height: 1;
+  margin: 13px 0 0;
+  padding: 0 0 1px;
+  text-transform: uppercase;
+  width: auto;
+}

@@ -1,0 +1,74 @@
+/* caraousal contanier */
+.carousalContainer {
+  width: 100%;
+}
+.caraousalSection {
+  display: flex;
+  padding: 0 90px;
+  padding-top: 5em;
+  background-color: #e3e6f3;
+}
+.carousalContainer .row {
+  display: flex;
+}
+.carousalContainer h1 {
+  color: #088178;
+  font-size: 52px;
+}
+
+.sliderButton {
+  margin-top: 1em;
+}
+.carousalContainer .button {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 45px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.carousalContainer .button:hover {
+  background-color: #fff;
+}
+
+.carousalContainer .button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .carousalContainer .button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+.sliderContent {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.caraousalContainer h3 {
+  font-size: 24px;
+}
+.alignContentCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sliderImage img {
+  height: auto;
+  max-width: 100%;
+  background-color: #e3e6f3;
+}
